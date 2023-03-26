@@ -68,3 +68,18 @@ class GraduateStudent extends Student{
         return this.researchArea;
     }
 }
+
+
+/* Checking the code by passing some samples.
+public class main{
+    public static void main(String args[]){
+        Student s1= new Student("JYOTHIRMAI",22049);
+        s1.getname();
+        s1.setCourses();
+        s1.getCourses();
+        GraduateStudent gs1=new GraduateStudent("SHANMUKHA",22051,"Electonics and computers");
+        s1.addNewCourse("CSE");
+        s1.printinfo();
+        gs1.printInfo();
+}
+}*/
